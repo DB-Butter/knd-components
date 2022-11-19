@@ -1,0 +1,20 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    padding: .5em;
+    position: sticky;
+    border-bottom: #439CEF solid 1px;
+    border-radius: 2em;
+    background: rgba(9,9,121,1);
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: x-large;
+    color: #439CEF;
+    background: -webkit-linear-gradient(#439CEF, #ccc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

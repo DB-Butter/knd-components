@@ -1,0 +1,13 @@
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 90%, rgba(67,156,239,1) 100%);    color: rgb(223, 213, 213);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+    body {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
